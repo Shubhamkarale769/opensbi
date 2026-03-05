@@ -48,6 +48,7 @@
 
 static void sbi_boot_print_banner(struct sbi_scratch *scratch)
 {
+sbi_printf("\nShubhan SK-opensbi\n");
 	if (scratch->options & SBI_SCRATCH_NO_BOOT_PRINTS)
 		return;
 
